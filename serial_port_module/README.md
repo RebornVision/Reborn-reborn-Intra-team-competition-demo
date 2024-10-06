@@ -71,6 +71,7 @@ ros2 topic echo /serial_msg
 再注意一点，packet中的才是与电控通信内容，auto_aim_interfaces中的接口仅为节点间通信
 
 ## 电控端示例
+见F427
 开启UART串口
 空闲中断接收数据并做相关解析
 ![](./docs/receive1.jpg)
